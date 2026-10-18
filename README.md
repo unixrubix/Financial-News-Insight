@@ -41,3 +41,5 @@ A fully containerized pipeline built with **FastAPI**, **Streamlit**, and **Olla
 ![News Article Preview](/images/link_response_with_ollama.png)
 
 ### News Article Response with layman Ollama explanation
+
+![News Article Preview](/images/link_response_with_ollama_layman.png)
