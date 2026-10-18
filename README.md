@@ -15,8 +15,9 @@ A fully containerized pipeline built with **FastAPI**, **Streamlit**, and **Olla
 ## 🛠️ How to Deploy Locally with Docker Compose
 
 1. Ensure you have Docker and Docker Compose installed.
-2. Spin up the container cluster (Frontend, Backend, and Ollama services):
+2. Navigate into the app folder and Spin up the container cluster (Frontend, Backend, and Ollama services):
    ```bash
+   cd app
    docker compose up --build -d
    ```
 3. Upon first startup, the backend automatically instructs Ollama to download and pull the `tinyllama` model.
